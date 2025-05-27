@@ -98,6 +98,7 @@ const getAllUsers = async ()=>{
         pickUser.value = '1'
         getUserPost(1);
         getUserDetails(1);
+        getUserComment(1)
     }
 }
 
@@ -164,7 +165,7 @@ const getUserDetails = (userId:number)=>{
             `${user.email}`,
             `@${user.username}`,
             `${user.company.catchPhrase}`,
-            `${user.address.street}`
+            `${user.address.city}`
         ]
         // loop 
         userDetail.forEach(details =>{
