@@ -1,5 +1,18 @@
-/.vscode
-/.dist
-images
-/package.json
-/tsconfig.json
+# Editor settings
+.vscode/
+
+# Build output
+dist/
+
+# (Optional) Ignore images if not needed in repo
+ src/images/
+
+# Node dependencies
+node_modules/
+
+# Environment files
+.env
+*.log
+
+# System files
+.DS_Store
