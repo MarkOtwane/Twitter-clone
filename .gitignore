@@ -5,7 +5,7 @@
 dist/
 
 # (Optional) Ignore images if not needed in repo
- src/images/
+ src/images
 
 # Node dependencies
 node_modules/
